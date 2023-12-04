@@ -1,8 +1,11 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
+*{
+  padding: 0;
+  margin: 0;
+}
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +38,26 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* Navbar style start */
+
+#sidebar{
+  background: linear-gradient(270deg,#e2e8ec,#fff);
+  color: #878787;
+  box-shadow: 1px 1px 5px #d1d9e6;
+  display: flex;
+  padding: 20px;
+  margin-bottom: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+body{
+  background-color: #E2E8F0;
+}
+
+#sidebar a.active {
+  color: red;
+  font-weight: bold;
 }
